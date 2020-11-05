@@ -1,4 +1,4 @@
-# macOS-Simple-KVM
+# macOS
 Documentation to set up a simple macOS VM in QEMU, accelerated by KVM.
 
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
