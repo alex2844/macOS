@@ -69,7 +69,7 @@ ARGS=(
 	-drive id=sdc,file=/dev/sdc,format=raw,media=disk
 	# -drive id=SystemDisk,if=none,file="${SYSTEM_DISK}"
 	# -device ide-hd,bus=sata.4,drive=SystemDisk
-	-drive file=/mnt/cloud/Soft/Boot/virtio-win-0.1.189.iso,media=cdrom
+	-drive file=/mnt/cloud/Soft/Boot/virtio-win-0.1.189.iso,media=cdrom # https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.189-1/virtio-win-0.1.189.iso
 	$ARGS
 )
 qemu-system-x86_64 "${ARGS[@]}"
